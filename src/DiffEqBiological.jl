@@ -8,7 +8,7 @@ using DiffEqBase, DiffEqJump
 
 import Base: (==)
 
-const ExprValues = Union{Expr,Symbol,Float64,Int}                   
+const ExprValues = Union{Expr,Symbol,Float64,Int}
 
 include("expression_utils.jl")
 include("reaction_network.jl")
